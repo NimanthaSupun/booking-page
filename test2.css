@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main{
+    background-color: #64d36a;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+
+}
+.about-section{
+    background: url(pexels-padrinan-255379.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    margin: 10px;
+
+
+}
+.about-container{
+
+    background: rgba(0, 128, 0, 0.7);
+    padding: 20px;
+    display: inline-block;
+    /* max-width: 800px; */
+    margin: auto;
+}
+/* team */
+
+.team-section{
+    padding: 50px 20px;
+    border: 1px #000 solid;
+    margin: 10px;
+
+
+}
+.team-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.team-member{
+    background-color: #64d36a;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+
+
+}
+.team-member img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    
+
+}
+.team-member button{
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+.team-member button:hover{
+    background-color: #08e713;
+}
+
+.service-section{
+    padding: 50px 20px;
+    background-color: #d1f7c4;
+    border: 1px #000 solid;
+    margin: 10px;
+
+
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+.service-card{
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+
+    
+}
+.service-card img{
+
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+.service-card h3{
+    margin: 15px 0 10px 0;
+
+}
+.service-card p{
+    font-size: 14px;
+    color: #333;
+
+}
+.service-card button{
+
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+.service-card button:hover{
+    background-color: #2e7d32;
+
+}
+.promotion-section{
+    padding: 50px 20px;
+    border: 1px #000 solid;
+    margin: 10px;
+
+
+
+
+}
+.promotion-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pro-meber{
+    padding: 20px;
+    width: 250px;
+    border: 1px #000 solid;
+    background-color: #08e713;
+
+
+}
+.pro-meber img{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+.c-button{
+    padding: 20px;
+    width: 100%;
+    background-color: #33ead6;
+    text-align: center;
+    border: 1px #000 solid;
+
+}
+.c-button button{
+    padding: 10px 20px;
+    background-color: #08e713;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.c-button button:hover{
+    background-color: #2e7d32;
+}
+.form-section{
+    padding: 50px 20px;
+    background-color: #08e713;
+    margin: 10px;
+    border: 1px #000 solid;
+}
+.name input{
+    width: 100%;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    padding: 12px 0;
+
+}
+
+.submit{
+    text-align: center;
+
+}
+.submit button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: aqua;
+    
+}

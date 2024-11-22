@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main{
+    background-color: #5318a1;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+
+}
+.about-section{
+
+    background-color: #d1bd06;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+
+}
+.table-section{
+    margin: 10px;
+
+}
+.table-container{
+    padding: 50px 20px;
+    border: 1px #000 solid;
+
+}
+.shedule-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+
+}
+.shedule-table th, .shedule-table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+.shedule-table th{
+    background-color: #0033cc;
+    color: white;
+    text-align: center;
+
+}
+.shedule-table td {
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+.shedule-table img{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+.shedule-table button{
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shedule-table button:hover{
+    background-color: #e0a800;
+   
+    
+}
+.shedule-table ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+
+
+}
+.shedule-table ul li{
+    margin: 5px 0;
+}
+
+
+.service-section{
+    padding: 50px 20px;
+    background-color: #d1f7c4;
+    border: 1px #000 solid;
+    margin: 10px;
+
+
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+.service-card{
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(86, 23, 233);
+
+    
+}
+.service-card img{
+
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+.service-card h3{
+    margin: 15px 0 10px 0;
+
+}
+.service-card p{
+    font-size: 14px;
+    color: #333;
+
+}
+.service-card button{
+
+    padding: 10px 20px;
+    background-color: #dfee12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+.service-card button:hover{
+    background-color: #e2d411;
+
+}
+
+.bus-info-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.bus-info-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bus-info-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.easy-booking-section {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #ffd700;
+}
+
+.easy-booking-section h2 {
+    background-color: #0033cc;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.booking-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.booking-card h3 {
+    margin: 15px 0 10px 0;
+}
+
+.booking-card h3 a {
+    color: #0033cc;
+    text-decoration: none;
+}
+
+.booking-card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.booking-card button {
+    background-color: #0033cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.booking-card button:hover {
+    background-color: #002299;
+}
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0033cc;
+    color: white;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.contact-form p {
+    margin: 20px 0 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 10px;
+}
+
+.contact-form button {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e0a800;
+}

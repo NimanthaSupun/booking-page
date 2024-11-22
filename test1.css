@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.team-section{
+
+    padding: 50px 20px;
+    border: 1px #000 solid;
+    margin: 10px;
+
+
+}
+
+.team-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+
+.team-member{
+
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+}
+
+.team-member img{
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    
+
+}
+.p-section{
+
+background: url(pexels-padrinan-255379.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 50px 20px;
+margin: 10px;
+text-align: center;
+
+
+
+}
